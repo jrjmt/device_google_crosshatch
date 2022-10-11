@@ -5,12 +5,12 @@
 #
 
 # Inherit some common Evolution X stuff.
-TARGET_BOOT_ANIMATION_RES := 1080
-TARGET_BOOT_ANIMATION_RES_EVO = true
+TARGET_BOOT_ANIMATION_RES ?= 1080
 EVO_BUILD_TYPE := UNOFFICIAL
 USE_PIXEL_CHARGING := true
-TARGET_SUPPORT_QUICK_TAP := true
+TARGET_SUPPORTS_QUICK_TAP := true
 TARGET_FACE_UNLOCK_SUPPORTED := true
+TARGET_INCLUDE_LIVE_WALLPAPERS := true
 $(call inherit-product, vendor/evolution/config/common_full_phone.mk)
 
 # Inherit device configuration

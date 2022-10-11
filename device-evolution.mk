@@ -259,6 +259,10 @@ PRODUCT_PACKAGES += \
     libwifi-hal:64 \
     libwifi-hal-qcom
 
+# Wallpapers
+PRODUCT_PACKAGES += \
+    PixelLiveWallpaperPrebuilt
+
 # VNDK FWK detect
 PRODUCT_PACKAGES += \
     libqti_vndfwk_detect.vendor \
